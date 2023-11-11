@@ -1,0 +1,1 @@
+# jenkins-master-and-slave-history
