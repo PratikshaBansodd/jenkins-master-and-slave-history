@@ -42,3 +42,30 @@ master history
     8  cat /var/lib/jenkins/secrets/initialAdminPassword
     9  java --version
    10  history
+
+
+
+
+
+   slave history 
+   ==============
+    1  vim a.sh
+    2  sh a.sh
+    3  yum install git -y
+    4  amazon-linux-extras install java-openjdk11 -y
+    5  update-alternatives --config java
+    6   wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.82/bin/apache-tomcat-9.0.82.tar.gz
+    7  tar -xzf apache-tomcat-9.0.82.tar.gz
+    8  vim apache-tomcat-9.0.82/conf/tomcat-users.xml
+    9  vim apache-tomcat-9.0.82/webapps/manager/META-INF/context.xml
+   10  ./apache-tomcat-9.0.82/bin/startup.sh
+   11  yum install git -y
+master histor
+==============
+ 1  vim a.sh
+    2  sh a.sh
+    3  2
+    4  sh a.sh
+    5  update-alternatives --config java
+    6  service jenkins start
+
